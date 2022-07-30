@@ -6,3 +6,9 @@
 // Find the average age(all items divided by number of items)
 // Find the range of the ages(max minus min)
 // Compare the value of (min - average) and (max - average), use abs() method 1.Slice the first ten countries from the countries array
+
+console.log(ages.sort());
+console.log(ages[0]);
+console.log(ages[ages.length - 1]);
+console.log((ages[4] + ages[5]) / 2);
+console.log(max - min)
