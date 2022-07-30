@@ -27,3 +27,18 @@ for(let i = 0 ; i < countries.length; i++){
 }
 console.log(countryWith);
 console.log("All these countries are without land\n",countryWithout);
+
+let arr = [];
+let newArr = [];
+console.log(countries[5]);
+for (i = 0; i < countries.length; i++) {
+	    let x = countries[i].includes('land');
+	    if (x) {
+		        arr.push(countries[i])
+		        }
+	    else {
+		            newArr.push(countries[i]);
+		        }
+}
+console.log(arr);
+console.log(newArr);

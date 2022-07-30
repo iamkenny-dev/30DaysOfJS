@@ -2,4 +2,15 @@
 //
 // ['Albania', 'Bolivia','Ethiopia']
 
-
+const countryWith = [];
+const countryWithout = [];
+for(let i = 0 ; i < countries.length; i++){
+	        if (countries[i].includes("ia") === true) {
+			                    countryWith.push(countries[i]);
+			        }
+	        else{
+			                countryWithout.push(countries[i]);
+			        }
+}
+console.log(countryWith);
+console.log("These are countries ends without ia\n",countryWithout);

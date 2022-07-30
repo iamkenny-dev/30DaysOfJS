@@ -22,3 +22,11 @@ for(let i = 0; i < countries.length; i++) {
 	    newArr.push([countries[i], abbr, len]);
 }
 console.log(newArr);
+
+let arr = [];
+
+console.log(countries[0].slice(0, 3).toUpperCase());
+for (i = 0; i < countries.length; i++) {
+	    arr.push([countries[i], countries[i].slice(0, 3).toUpperCase(), countries[i].length])
+}
+console.log(arr);
