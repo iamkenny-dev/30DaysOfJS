@@ -4,3 +4,8 @@ let companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'A
 
 let sliced = companies.slice(3, 4);
 console.log(sliced);
+
+companies[3] = companies[companies.length-1];
+console.log(companies[3])
+console.log(companies.pop());
+console.log(companies);

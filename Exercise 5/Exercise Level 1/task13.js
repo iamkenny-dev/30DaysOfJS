@@ -4,5 +4,5 @@ let companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'A
 if (companies[3] == 'IBM') {
 	console.log(companies)
 } else {
-	console.log('A company is not found');
+	console.log('A company is not found'):WQI;
 }

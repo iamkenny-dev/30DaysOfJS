@@ -1,4 +1,4 @@
 // Find the length of your array
 
 let arr = [];
-arr.length;
+let arrLength = arr.length;

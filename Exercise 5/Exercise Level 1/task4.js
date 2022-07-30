@@ -14,5 +14,5 @@ const countries = [
 	  'Kenya'
 ];
 
-countries[0]; countries[6]; countries[11];
+countries[0]; countries[6]; countries[countries.length - 1];
 

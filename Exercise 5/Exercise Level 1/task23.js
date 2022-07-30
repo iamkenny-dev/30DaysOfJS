@@ -5,3 +5,7 @@ let companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'A
 
 let sliced = companies.splice();
 console.log(sliced);
+
+companies.length = 0;
+console.log (companies);
+
