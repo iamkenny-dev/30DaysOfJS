@@ -5,3 +5,9 @@
 // add Sugar at the end of you shopping cart if it has not been already added
 // remove 'Honey' if you are allergic to honey
 // modify Tea to 'Green Tea'
+//
+shoppingCart.unshift('Meat');
+shoppingCart.push('Sugar');
+shoppingCart.splice(4, 1);
+shoppingCart[3] = 'Green Tea'
+console.log(shoppingCart);

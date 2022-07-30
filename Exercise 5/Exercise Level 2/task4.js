@@ -15,5 +15,5 @@ const countries = [
 	  'Kenya'
 ];
 
-countries.push('ETHIOPIA');
-console.log(countries);
+console.log(countries.includes('Ethiopia'));
+console.log(countries[4].toString().toUpperCase());
