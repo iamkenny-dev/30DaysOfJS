@@ -6,3 +6,17 @@
 // ['Google', 'Facebook','Apple', 'Amazon','MICROSOFT',  'IBM']
 // console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon']);
 //   'Not Found'
+//
+function modifyArray(array) {
+	    if (array.length >= 5 ) {
+		            array[4] = 'modify'
+		            console.log(array);
+		        }
+	    else {
+		            console.log('item not found');
+		        }
+}
+let array = ['Avocado', 'Tomato', 'Potato','Mango', 'Lemon','Carrot']
+console.log(modifyArray(array));
+
+
