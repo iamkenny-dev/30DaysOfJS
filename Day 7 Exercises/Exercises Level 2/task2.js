@@ -12,4 +12,8 @@ function solveQuadEquation(a, b, c) {
 }
 solveQuadEquation(1, -1, 0)
 
-
+function solveQuadEquation(a, b, c) {
+	    let result = `${a}*(Math.pow(x, 2)) + ${b}*x + ${c} = 0`;
+	            console.log(result);
+}
+solveQuadEquation(1, -1, 0);
