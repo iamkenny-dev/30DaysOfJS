@@ -2,19 +2,25 @@
 
 console.log(users.Alex.skills.length);
 console.log(users.Paul.skills.length)
-// let alexSkillsNum = users.Alex.skills.length;
-// // let asabSkillsNum = users.Asab.skills.length
-// // let brookSkillsNum = users.Brook.skills.length;
-// // let danielSkillsNum = users.Daniel.skills.length;
-// // let johnSkillsNum = users.John.skills.length;
-// // let thomasSkillsNum = users.Thomas.skills.length;
-// // let paulSkillsNum = users.Paul.skills.length;
-//
-// // for (i = 0; i < 7; i++) {
-// //     let longestNumber;
-// //     let length = 0;
-// //     if ()
-// // }
-//
-// const keys = Object.keys(users);
-// console.log(users.keys);
+const entries = Object.entries(users);
+console.log(entries);
+console.log(entries.length);
+let length = 0;
+let max;
+for (i = 0; i < entries.length; i++) {
+	console.log(entries[i][1].skills);
+	    if (entries[i][1].skills.length > length) {
+		            length = entries[i][1].skills.length;
+		            max = entries[i];
+		        }
+}
+console.log(max);
+
+for (const i in Object.entries) {
+	console.log(entries[i][1].skills);
+	    if (entries[i][1].skills.length > length) {
+		            length = entries[i][1].skills.length;
+		            max = entries[i];
+		        }
+}
+console.log(max);
